@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio — TEST_Ink Atelier</title>
+  <meta name="description" content="Portfólio completo do TEST_Ink Atelier — Black &amp; Grey, Fine Line e Blackwork. Arte autoral por agendamento em São Paulo.">
+
+  <meta property="og:type"        content="website">
+  <meta property="og:title"       content="Portfólio — TEST_Ink Atelier">
+  <meta property="og:description" content="Portfólio completo — Black &amp; Grey, Fine Line e Blackwork.">
+  <meta property="og:image"       content="assets/og-placeholder.jpg">
+  <meta property="og:url"         content="https://inkatelier.com.br/portfolio.html">
+  <meta property="og:locale"      content="pt_BR">
+
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,700;0,6..96,900;1,6..96,700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+<script>window.__imgFallback=function(img,label){img.onerror=null;img.alt=label||'';img.style.cssText='background:#e5e7eb;min-height:40px';img.src='data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox%3D%220 0 1 1%22%3E%3C%2Fsvg%3E';};</script>
+</head>
+<body>
+
+  <!-- ══════════════════════════════
+       NAVBAR
+  ══════════════════════════════ -->
+  <nav class="navbar scrolled" id="top" aria-label="Navegação principal">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="TEST_Ink Atelier — página inicial">
+        <span class="nav-logo-name">TEST_Ink Atelier</span>
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="artists.html">Artistas</a></li>
+        <li><a href="portfolio.html" class="nav-active" aria-current="page">Portfólio</a></li>
+        <li><a href="booking.html">Agendar</a></li>
+      </ul>
+      <a href="https://wa.me/?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20no%20Ink%20Atelier."
+         class="nav-cta"
+         target="_blank" rel="noopener noreferrer"
+         aria-label="Agendar consulta pelo WhatsApp">
+        Agendar consulta
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════
+       PAGE HEADER
+  ══════════════════════════════ -->
+  <header class="page-header" aria-labelledby="page-title">
+    <div class="container">
+      <span class="eyebrow fade-up">Arte autoral</span>
+      <h1 class="page-header-title fade-up" id="page-title">Portfólio</h1>
+      <p class="page-header-sub fade-up">
+        Cada peça é única e irreproducível. Aqui estão alguns dos trabalhos
+        realizados pelos nossos artistas.
+      </p>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════
+       PORTFOLIO GRID com filtro
+  ══════════════════════════════ -->
+  <section class="portfolio-page" id="portfolio-full"
+           aria-labelledby="portfolio-full-heading">
+    <div class="container">
+      <h2 class="visually-hidden" id="portfolio-full-heading">Galeria de trabalhos</h2>
+
+      <!-- Filtro estilos -->
+      <div class="portfolio-filter-bar" role="group" aria-label="Filtrar por estilo">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="black-grey">Black &amp; Grey</button>
+        <button class="filter-btn" data-filter="fine-line">Fine Line</button>
+        <button class="filter-btn" data-filter="blackwork">Blackwork</button>
+      </div>
+
+      <!-- Grid 12 itens -->
+      <div class="portfolio-full-grid" role="list">
+        <figure class="portfolio-item stagger-card img-fallback"
+                role="listitem"
+                data-style="black-grey"
+                aria-label="Retrato realista em black & grey — rosto feminino">
+          <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/tatuaggi/ambiente/tatuaggi-ambiente-06.webp"
+               alt="Retrato realista em black & grey — rosto feminino"
+               loading="lazy"
+               width="600" height="750"
+               onerror="window.__imgFallback(this, 'Black & Grey')">
+          <div class="portfolio-item-overlay" aria-hidden="true">
+            <span class="portfolio-item-style">Black & Grey</span>
+            <span class="portfolio-item-artist">Mateus Carvalho</span>
+          </div>
+        </figure>
+        <figure class="portfolio-item stagger-card img-fallback"
+                role="listitem"
+                data-style="fine-line"
+                aria-label="Buquê botânico em fine line">
+          <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/tatuaggi/detalhe/tatuaggi-detalhe-12.webp"
+               alt="Buquê botânico em fine line"
+               loading="lazy"
+               width="600" height="750"
+               onerror="window.__imgFallback(this, 'Fine Line')">
+          <div class="portfolio-item-overlay" aria-hidden="true">
+            <span class="portfolio-item-style">Fine Line</span>
+            <span class="portfolio-item-artist">Luísa Verano</span>
+          </div>
+        </figure>
+        <figure class="portfolio-item stagger-card img-fallback"
+                role="listitem"
+                data-style="blackwork"
+                aria-label="Mandala geométrica blackwork">
+          <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/tatuaggi/equipe/tatuaggi-equipe-04.webp"
+               alt="Mandala geométrica blackwork"
+               loading="lazy"
+               width="600" height="750"
+               onerror="window.__imgFallback(this, 'Blackwork')">
+          <div class="portfolio-item-overlay" aria-hidden="true">
+            <span class="portfolio-item-style">Blackwork</span>
+            <span class="portfolio-item-artist">Rafael Noir</span>
+          </div>
+        </figure>
+        <figure class="portfolio-item stagger-card img-fallback"
+                role="listitem"
+                data-style="black-grey"
+                aria-label="Tigre black & grey no ombro">
+          <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/tatuaggi/ambiente/tatuaggi-ambiente-02.webp"
+               alt="Tigre black & grey no ombro"
+               loading="lazy"
+               width="600" height="750"
+               onerror="window.__imgFallback(this, 'Black & Grey')">
+          <div class="portfolio-item-overlay" aria-hidden="true">
+            <span class="portfolio-item-style">Black & Grey</span>
+            <span class="portfolio-item-artist">Mateus Carvalho</span>
+          </div>
+        </figure>
+        <figure class="portfolio-item stagger-card img-fallback"
+                role="listitem"
+                data-style="fine-line"
+                aria-label="Orquídea fine line no pulso">
+          <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/tatuaggi/detalhe/tatuaggi-detalhe-01.webp"
+               alt="Orquídea fine line no pulso"
+               loading="lazy"
+               width="600" height="750"
+               onerror="window.__imgFallback(this, 'Fine Line')">
+          <div class="portfolio-item-overlay" aria-hidden="true">
+            <span class="portfolio-item-style">Fine Line</span>
+            <span class="portfolio-item-artist">Luísa Verano</span>
+          </div>
+        </figure>
+        <figure class="portfolio-item stagger-card img-fallback"
+                role="listitem"
+                data-style="blackwork"
+                aria-label="Padrão geométrico blackwork no joelho">
+          <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/tatuaggi/equipe/tatuaggi-equipe-01.webp"
+               alt="Padrão geométrico blackwork no joelho"
+               loading="lazy"
+               width="600" height="750"
+               onerror="window.__imgFallback(this, 'Blackwork')">
+          <div class="portfolio-item-overlay" aria-hidden="true">
+            <span class="portfolio-item-style">Blackwork</span>
+            <span class="portfolio-item-artist">Rafael Noir</span>
+          </div>
+        </figure>
+        <figure class="portfolio-item stagger-card img-fallback"
+                role="listitem"
+                data-style="black-grey"
+                aria-label="Retrato black & grey — retrato masculino realista">
+          <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/tatuaggi/ambiente/tatuaggi-ambiente-13.webp"
+               alt="Retrato black & grey — retrato masculino realista"
+               loading="lazy"
+               width="600" height="750"
+               onerror="window.__imgFallback(this, 'Black & Grey')">
+          <div class="portfolio-item-overlay" aria-hidden="true">
+            <span class="portfolio-item-style">Black & Grey</span>
+            <span class="portfolio-item-artist">Mateus Carvalho</span>
+          </div>
+        </figure>
+        <figure class="portfolio-item stagger-card img-fallback"
+                role="listitem"
+                data-style="fine-line"
+                aria-label="Ramo de lavanda fine line no antebraço">
+          <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/tatuaggi/detalhe/tatuaggi-detalhe-11.webp"
+               alt="Ramo de lavanda fine line no antebraço"
+               loading="lazy"
+               width="600" height="750"
+               onerror="window.__imgFallback(this, 'Fine Line')">
+          <div class="portfolio-item-overlay" aria-hidden="true">
+            <span class="portfolio-item-style">Fine Line</span>
+            <span class="portfolio-item-artist">Luísa Verano</span>
+          </div>
+        </figure>
+        <figure class="portfolio-item stagger-card img-fallback"
+                role="listitem"
+                data-style="blackwork"
+                aria-label="Padrão tribal geométrico blackwork na costela">
+          <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/tatuaggi/equipe/tatuaggi-equipe-02.webp"
+               alt="Padrão tribal geométrico blackwork na costela"
+               loading="lazy"
+               width="600" height="750"
+               onerror="window.__imgFallback(this, 'Blackwork')">
+          <div class="portfolio-item-overlay" aria-hidden="true">
+            <span class="portfolio-item-style">Blackwork</span>
+            <span class="portfolio-item-artist">Rafael Noir</span>
+          </div>
+        </figure>
+        <figure class="portfolio-item stagger-card img-fallback"
+                role="listitem"
+                data-style="black-grey"
+                aria-label="Leão realista black & grey no peitoral">
+          <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/tatuaggi/ambiente/tatuaggi-ambiente-03.webp"
+               alt="Leão realista black & grey no peitoral"
+               loading="lazy"
+               width="600" height="750"
+               onerror="window.__imgFallback(this, 'Black & Grey')">
+          <div class="portfolio-item-overlay" aria-hidden="true">
+            <span class="portfolio-item-style">Black & Grey</span>
+            <span class="portfolio-item-artist">Mateus Carvalho</span>
+          </div>
+        </figure>
+        <figure class="portfolio-item stagger-card img-fallback"
+                role="listitem"
+                data-style="fine-line"
+                aria-label="Composição floral fine line no ombro">
+          <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/tatuaggi/detalhe/tatuaggi-detalhe-13.webp"
+               alt="Composição floral fine line no ombro"
+               loading="lazy"
+               width="600" height="750"
+               onerror="window.__imgFallback(this, 'Fine Line')">
+          <div class="portfolio-item-overlay" aria-hidden="true">
+            <span class="portfolio-item-style">Fine Line</span>
+            <span class="portfolio-item-artist">Luísa Verano</span>
+          </div>
+        </figure>
+        <figure class="portfolio-item stagger-card img-fallback"
+                role="listitem"
+                data-style="blackwork"
+                aria-label="Manga blackwork geométrica no braço completo">
+          <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/tatuaggi/equipe/tatuaggi-equipe-03.webp"
+               alt="Manga blackwork geométrica no braço completo"
+               loading="lazy"
+               width="600" height="750"
+               onerror="window.__imgFallback(this, 'Blackwork')">
+          <div class="portfolio-item-overlay" aria-hidden="true">
+            <span class="portfolio-item-style">Blackwork</span>
+            <span class="portfolio-item-artist">Rafael Noir</span>
+          </div>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+       CTA BOOKING
+  ══════════════════════════════ -->
+  <section class="cta-band" aria-labelledby="cta-band-heading">
+    <div class="container">
+      <h2 class="cta-band-headline fade-up" id="cta-band-heading">
+        Pronto para o seu projeto?
+      </h2>
+      <p class="cta-band-sub fade-up">
+        Agende uma consulta gratuita e comece a criar a sua peça exclusiva.
+      </p>
+      <a href="https://wa.me/?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20no%20Ink%20Atelier."
+         class="btn btn--primary fade-up"
+         target="_blank" rel="noopener noreferrer"
+         aria-label="Agendar consulta pelo WhatsApp">
+        <span class="btn-icon" data-icon="WhatsappLogo" aria-hidden="true"></span>
+        Agendar consulta
+      </a>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+       FOOTER
+  ══════════════════════════════ -->
+  <footer class="footer" aria-label="Rodapé do site">
+    <div class="container footer-grid">
+
+      <div class="footer-col footer-col--brand">
+        <p class="footer-logo">TEST_Ink Atelier</p>
+        <p class="footer-tagline">Cada traço, uma história definitiva</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/inkatelierspbr"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Instagram — @inkatelierspbr">
+            <span data-icon="InstagramLogo" aria-hidden="true"></span>
+          </a>
+          <a href="https://wa.me/"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="WhatsApp">
+            <span data-icon="WhatsappLogo" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-col-title">Páginas</p>
+        <ul class="footer-list" role="list">
+          <li><a href="index.html"     class="footer-link">Início</a></li>
+          <li><a href="artists.html"   class="footer-link">Artistas</a></li>
+          <li><a href="portfolio.html" class="footer-link">Portfólio</a></li>
+          <li><a href="booking.html"   class="footer-link">Agendar</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-col-title">Contato</p>
+        <ul class="footer-list" role="list">
+          <li></li>
+          <li>Jardins, São Paulo</li>
+          <li>
+            <a href="https://wa.me/" class="footer-link"
+               target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-col-title">Atelier</p>
+        <ul class="footer-list" role="list">
+          <li>Terça a Sábado · 10h às 19h · Somente por agendamento</li>
+          <li>Somente por agendamento</li>
+          <li>Somente maiores de 18 anos</li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="container footer-bottom">
+      <span class="footer-copy">
+        &copy; <span data-year>2026</span> TEST_Ink Atelier. Todos os direitos reservados.
+      </span>
+      <span class="footer-note">Somente maiores de 18 anos</span>
+    </div>
+  </footer>
+
+  <style>
+    /* Visually hidden (accessible) */
+    .visually-hidden {
+      position: absolute; width: 1px; height: 1px;
+      padding: 0; margin: -1px; overflow: hidden;
+      clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+    }
+  </style>
+
+  <script src="script.js"></script>
+</body>
+</html>
